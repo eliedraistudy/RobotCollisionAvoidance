@@ -50,8 +50,6 @@ public:
     //  Operators
     bool operator==(Line l) { return (l.Slope() == Slope() && l.Y_Intercept() == Y_Intercept()); }
     /////////////////////////////
-
-
 };
 
 #endif /* Line_hpp */
