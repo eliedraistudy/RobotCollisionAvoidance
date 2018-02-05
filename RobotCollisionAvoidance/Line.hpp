@@ -30,7 +30,8 @@ public:
     /////////////////////////////
     
     //  Constructors
-    Line(Vector d = Vector::UnitX(), Vector p = Vector::Null()) : direction(d), point(p) {}
+    Line(Vector d = Vector::UnitX(), Vector p = Vector::Null())
+        : direction(d.Unit()), point(p.Unit()) {}
     Line(const Line& l) : Line(l.direction, l.point) {}
     ~Line() {}
     /////////////////////////////
@@ -42,6 +43,8 @@ public:
     static bool AreParallels(const Line& l, const Line& m)
     { return Vector::Collinears(l.direction, m.direction); }
     static Vector IntersectionPoint(Line l, Line m);
+    static double AngleBetween(Line l, Line m)
+    { return Vector::AngleBetween(l.direction, m.direction); }
     /////////////////////////////
     
     //  Operators

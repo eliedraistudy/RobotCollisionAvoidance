@@ -50,6 +50,7 @@ public:
     static Vector UnitX() { return Vector(1, 0); }
     static Vector UnitY() { return Vector(0, 1); }
     static Vector Null() { return Vector (0,0); }
+    static double AngleBetween(Vector v, Vector w);
     /////////////////////////////////
 
     

@@ -10,6 +10,7 @@
 		47C26E7B202878B900B13975 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47C26E7A202878B900B13975 /* main.cpp */; };
 		47C26E84202879E500B13975 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47C26E82202879E500B13975 /* Vector.cpp */; };
 		47C26E872028B11A00B13975 /* Line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47C26E852028B11A00B13975 /* Line.cpp */; };
+		47C26E8A2028D7B500B13975 /* SemiLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47C26E882028D7B500B13975 /* SemiLine.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		47C26E83202879E500B13975 /* Vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
 		47C26E852028B11A00B13975 /* Line.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Line.cpp; sourceTree = "<group>"; };
 		47C26E862028B11A00B13975 /* Line.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Line.hpp; sourceTree = "<group>"; };
+		47C26E882028D7B500B13975 /* SemiLine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SemiLine.cpp; sourceTree = "<group>"; };
+		47C26E892028D7B500B13975 /* SemiLine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SemiLine.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				47C26E7A202878B900B13975 /* main.cpp */,
 				47C26E852028B11A00B13975 /* Line.cpp */,
 				47C26E862028B11A00B13975 /* Line.hpp */,
+				47C26E882028D7B500B13975 /* SemiLine.cpp */,
+				47C26E892028D7B500B13975 /* SemiLine.hpp */,
 			);
 			path = RobotCollisionAvoidance;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				47C26E872028B11A00B13975 /* Line.cpp in Sources */,
 				47C26E84202879E500B13975 /* Vector.cpp in Sources */,
 				47C26E7B202878B900B13975 /* main.cpp in Sources */,
+				47C26E8A2028D7B500B13975 /* SemiLine.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
